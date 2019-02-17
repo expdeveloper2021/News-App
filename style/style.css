@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: lightblue;
+    font-family: sans-serif;
+}
+.article{
+    width: 80%;
+    height: auto;
+    margin: 0px auto;
+}
+.article a{
+    text-decoration: none;
+    color: black;
+}
+.article p{
+    font-size: 18px;
+    text-align: justify;
+}
+.article img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+@media (max-width: 950px){
+    .article{
+        width: 100%;
+    }
+}
